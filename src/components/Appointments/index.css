@@ -1,0 +1,69 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9897f0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #d1d5db;
+  padding-bottom: 20px;
+}
+
+.text-container {
+  width: 50%;
+}
+
+.label-design {
+  font-weight: bold;
+  font-size: 14px;
+  color: #6b7280;
+}
+
+input {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.appointments {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointments-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
